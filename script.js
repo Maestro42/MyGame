@@ -33,7 +33,29 @@ const words = [
   'feeble',
   'admit',
   'drag',
-  'loving'
+  'loving',
+  'paradox',
+  'diamond',
+  'monarch',
+  'railcar',
+  'privacy',
+  'discuss',
+  'produce',
+  'fixture',
+  'revival',
+  'complex',
+  'present',
+  'graphic',
+  'extreme',
+  'posture',
+  'private',
+  'justice',
+  'enhance',
+  'kinship',
+  'impound',
+  'terrify'
+  
+  
 ];
 window.addEventListener('load',play);
 document.getElementById('visible').hidden=false;
