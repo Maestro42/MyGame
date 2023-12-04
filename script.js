@@ -79,7 +79,13 @@ const levels={
   medium:3,
   hard:2
 }
-
+let currentLevel = levels[Levels.value || 'easy'];
+window.addEventListener('load', storeData);
+window.addEventListener('load', play);
+function getData() {
+  const storedValue = localStorage.getItem('diffChoice');
+  Levels.value = storedValue || 'easy';
+}
 function startMatch(){
   var selectedValue=Levels.value;
   var currentLevel=levels[selectedValue];
