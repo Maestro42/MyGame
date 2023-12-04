@@ -82,6 +82,10 @@ const levels={
 let currentLevel = levels[Levels.value || 'easy'];
 window.addEventListener('load', storeData);
 window.addEventListener('load', play);
+function handleInput() {
+  const enteredWord = wordInput.value.trim();
+  // Process the entered word here
+}
 function getData() {
   const storedValue = localStorage.getItem('diffChoice');
   Levels.value = storedValue || 'easy';
