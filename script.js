@@ -117,7 +117,8 @@ function play(){
 }
 
 function matchWords(){
-  if(wordInput.value===rWord.innerHTML){
+  const fWord=wordInput.value.trim();
+  if(fWord===rWord.innerHTML){
     message.innerHTML='correct';
     return true;
   }else{
